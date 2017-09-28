@@ -1,0 +1,200 @@
+/* Base CSS */
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #222;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a:hover {
+    text-decoration: none
+}
+
+.section-padding {
+    padding: 80px 0;
+}
+
+.product-box-bg-1 {
+    background-image: url("../img/man-1.jpg")
+}
+
+.product-box-bg-2 {
+    background-image: url("../img/man-2.jpg")
+}
+
+.product-box-bg-3 {
+    background-image: url("../img/man-3.jpg")
+}
+
+.product-box-bg-4 {
+    background-image: url("../img/man-4.jpg")
+}
+
+.product-box-bg-5 {
+    background-image: url("../img/man-5.jpg")
+}
+
+.section-title h2 {
+    text-transform: uppercase;
+    margin-bottom: 45px;
+}
+
+.product-box-bg {
+    background-size: cover;
+    background-color: #ddd;
+    background-position: center top;
+    height: 330px;
+    position: relative;
+    z-index: 1;
+}
+
+.ticker {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    background: #333;
+    width: 40px;
+    height: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 40px;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 11px;
+}
+
+.ticker-green {
+    background-color: #2AB89D;
+}
+
+.ticker-red {
+    background-color: #F84F4C;
+}
+
+.ticker-none {
+    display: none;
+}
+
+.product-bottom-hover {
+    position: absolute;
+    left: 50%;
+    width: 200px;
+    margin-left: -100px;
+    bottom: -25px;
+    background: #fff;
+    border-right: 1px solid #e5e5e5;
+    transition: .3s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.product-bottom-hover a {
+    display: block;
+    float: left;
+    width: 33.333333%;
+    text-align: center;
+    padding: 15px;
+    border-left: 1px solid #e5e5e5;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    color: #333;
+    font-size: 16px;
+    transition: .3s;
+}
+
+.product-bottom-hover a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.single-product-box:hover .product-bottom-hover {
+    opacity: 1;
+    visibility: visible;
+    bottom: 30px;
+}
+
+.single-product-box {
+    text-align: center;
+}
+
+.single-product-box h4 {
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.product-price-old {
+    color: #999;
+    font-size: 18px;
+    font-style: italic;
+    text-decoration: line-through;
+    margin-right: 5px;
+}
+
+.product-price-current {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.product-carousel .owl-nav div {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: #555;
+    color: #fff;
+    text-align: center;
+    font-size: 23px;
+    line-height: 46px;
+    border-radius: 50%;
+    left: -25px;
+    top: 34%;
+    opacity: .7;
+}
+
+.product-carousel .owl-nav div.owl-next {
+    left: auto;
+    right: -25px;
+}
+
+.product-carousel .owl-nav div.owl-prev i.fa {
+    margin-left: -7px;
+}
+
+.product-carousel .owl-nav div.owl-next i.fa {
+    margin-right: -7px;
+}

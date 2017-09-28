@@ -1,0 +1,177 @@
+/* Base CSS */
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    color: #222;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a:hover {
+    text-decoration: none
+}
+
+.section-padding {
+    padding: 80px 0;
+}
+
+.newsletter-bg {
+    background-image: url("../img/bg.jpg")
+}
+
+.newsletter-bg {
+    color: #fff;
+    position: relative;
+    z-index: 1;
+    background-color: #ddd;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-bottom: 160px;
+}
+
+.newsletter-bg h2 {
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 900;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.newsletter-bg:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    content: "";
+    z-index: -1;
+    opacity: .5;
+}
+
+.newsletter-form input[type=email] {
+    color: #fff;
+    border: 1px solid #82756F;
+    background: #333;
+    padding: 12px 20px;
+    border-radius: 50px;
+    opacity: .5;
+    width: 74%;
+}
+
+.newsletter-form input[type=submit] {
+    background: #2AB89D;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 13px 20px;
+    border-radius: 50px;
+    width: 25%;
+    transition: .3s;
+}
+.newsletter-form input[type=submit]:hover {
+    background-color: #1FA88E;
+    color: #fff;
+}
+
+.newsletter-text {
+    font-style: italic;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.bordered-boxes {
+    overflow: hidden;
+    border-right: 1px solid #EEEEEE;
+    color: #888;
+    margin-top: -160px;
+    position: relative;
+    z-index: 9;
+    background: #fff;
+}
+
+.single-bordered-box {
+    float: left;
+    width: 50%;
+    border-left: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+    border-top: 1px solid #EEEEEE;
+    padding: 50px 80px;
+    text-align: center;
+    min-height: 315px;
+}
+
+.single-bordered-box h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.single-testimonial-box {
+    font-style: italic;
+    line-height: 1.7;
+}
+
+.author-name {
+    font-style: normal;
+    color: #333;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.boxed-btn {
+    background: #333;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 10px 30px;
+    font-weight: 700;
+    border-radius: 50px;
+    display: inline-block;
+    margin-top: 20px;
+    transition: .3s;
+}
+
+.boxed-btn:hover {
+    color: #fff;
+    background-color: #111;
+}
+
+.boxed-btn i.fa {
+    padding-left: 5px;
+}
